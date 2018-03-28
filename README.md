@@ -38,18 +38,18 @@ The following transformations and analyses were followed to obtain at the clean 
 2. Create consolidated training and testing sets with 'subject' and 'activity' information, and label the columns
 
     + change the column names of the train and test dataframe for the 561 columns
-  + Add the activity and subject columns to the respective dataframes
-  + Merge the training and testing data sets
+    + Add the activity and subject columns to the respective dataframes
+    + Merge the training and testing data sets
 
 3. Extract measurements on the mean and standard deviation. Names of the columns with mean & standard deviation values contain the strings 'mean()' & 'std()'
 
-  + Extract colnames with mean and standard deviation
-  + Subset the data with the above columns to create *MeanAndStdData*
-  + Add the Subject and activity columns to *MeanAndStdData*
+    + Extract colnames with mean and standard deviation
+    + Subset the data with the above columns to create *MeanAndStdData*
+    + Add the Subject and activity columns to *MeanAndStdData*
   
 4. Descriptive names to name the activities
 
-  + Merge *MeanAndStdData* dataframe with 'Activity Labels' described in 'activity_labels.txt'
+    + Merge *MeanAndStdData* dataframe with 'Activity Labels' described in 'activity_labels.txt'
 
 5. Descriptive Variable Names: Remove all the special characters and make the names tidy and comprehendable
 
