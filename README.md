@@ -7,7 +7,7 @@ The purpose of the assignment is to demonstrate our ability to collect, work wit
   - Its activity label. 
   - An identifier of the subject who carried out the experiment.\
 
-* The obtained data is divided into two sets: 
+The obtained data is divided into two sets: 
   + training set with 70% data
   + testing set with 30% data
   
@@ -37,7 +37,7 @@ The following transformations and analyses were followed to obtain at the clean 
 
 2. Create consolidated training and testing sets with 'subject' and 'activity' information, and label the columns
 
-  + change the column names of the train and test dataframe for the 561 columns
+    + change the column names of the train and test dataframe for the 561 columns
   + Add the activity and subject columns to the respective dataframes
   + Merge the training and testing data sets
 
